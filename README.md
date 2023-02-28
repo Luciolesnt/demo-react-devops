@@ -1,5 +1,19 @@
 ### This project was initialized with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+
+- [Docker](https://www.docker.com/)
+
+## Installation
+
+### For dev
+
+Start local project with => docker-compose.
+
+```bash
+docker-compose up
+```
+
 ### Available Scripts :
 
 #### `npm start`
