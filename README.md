@@ -21,7 +21,7 @@ docker images
 3. Finally run the app (with a port) :
 
 ```bash
-docker run -p 8000:8000 lsanter/react-demo-devops:latest
+docker run -p 8000:8000 lsanter/react-demo-devops:master
 ```
 
 ## Installation
