@@ -3,6 +3,7 @@
 ## Prerequisites
 
 - [Docker](https://www.docker.com/)
+- [NodeJS](https://nodejs.org/en/)
 
 ## Installation
 
