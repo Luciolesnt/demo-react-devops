@@ -1,5 +1,7 @@
 ### This project was initialized with [Create React App](https://github.com/facebook/create-react-app).
 
+### Devops doc used [here](https://www.youtube.com/watch?v=xtllpDEOw4w&ab_channel=VeryAcademy).
+
 ## Prerequisites
 
 - [Docker](https://www.docker.com/)

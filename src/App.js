@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <a
           className="App-link"
-          href="#"
+          href="https://github.com/Luciolesnt/demo-react-devops/"
           target="_blank"
           rel="noopener noreferrer"
         >
