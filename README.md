@@ -6,8 +6,22 @@
 
 - [Docker](https://www.docker.com/)
 
+1. Pull the docker image
+
 ```bash
 docker pull lsanter/demo-react-devops
+```
+
+2. Then check if the image is on your Docker Desktop with :
+
+```bash
+docker images
+```
+
+3. Finally run the app (with a port) :
+
+```bash
+docker run -p 8000:8000 lsanter/react-demo-devops:latest
 ```
 
 ## Installation
