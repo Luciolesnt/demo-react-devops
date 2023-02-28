@@ -2,8 +2,8 @@ name: Docker Image CI
 
 on:
   push:
-    tags:
-    - "v*.*.*"
+    branches:
+    - master
 
 jobs:
   build:
@@ -24,4 +24,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/demo-backend:${{github.ref_name}}
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/ci-cd:${{github.ref_name}}
